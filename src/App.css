@@ -1,0 +1,41 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.app > * {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* width: calc(100% - 60px);
+  margin-left: 60px;
+  margin-right: 0px; */
+  width: calc(100% - 60px);
+  margin-left: calc(340px - 270px);
+  /* margin-right: 200px; */
+  overflow: hidden;
+}
+
+.main-content {
+  margin-top: 60px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  z-index: 0;
+  /* width: calc(100% - 270px); */
+  width: calc(98vw - 270px);
+  padding: 10px;
+  z-index: 0;
+  flex: 1;
+}

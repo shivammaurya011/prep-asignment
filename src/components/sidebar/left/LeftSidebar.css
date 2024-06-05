@@ -1,0 +1,94 @@
+.left-sidebar {
+  width: 270px;
+  background-color: #1a1a1a;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.logo-text {
+  color: #fff;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-item {
+  margin-bottom: 8px;
+  color: #454545;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #f1f1f1;
+  white-space: nowrap;
+  overflow: auto;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-item.menu-title {
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #989898;
+  cursor: default;
+}
+
+.menu-item .material-icons {
+  margin-right: 8px;
+  color: #454545;
+}
+
+.menu-link:hover:not(.menu-title, .spacer) {
+  background-color: #454545;
+  color: #fff;
+}
+
+.menu-link:hover:not(.menu-title, .spacer) .material-icons {
+  color: #fff;
+}
+
+.spacer {
+  margin: 20px;
+}
+
+.active {
+  background-color: #454545;
+  color: #fff;
+}
+
+.active .material-icons {
+  color: #fff;
+}

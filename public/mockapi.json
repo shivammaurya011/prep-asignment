@@ -1,0 +1,149 @@
+[
+  {
+    "targetAccName": "Nike",
+    "targetAccLogo": "https://placehold.co/100",
+    "statedPainPoints": [
+      {
+        "issue": "Communication challenge",
+        "facedBy": "Director",
+        "severityLevel": 1
+      },
+      {
+        "issue": "Campaign ROI",
+        "facedBy": "Marketing Manger",
+        "severityLevel": 2
+      }
+    ],
+    "derivedPainPoints": [
+      {
+        "issue": "Communication Module",
+        "facedBy": "Director",
+        "severityLevel": 1
+      },
+      {
+        "issue": "Campaign ROI",
+        "facedBy": "Marketing Manger",
+        "severityLevel": 2
+      }
+    ],
+    "firmography": [
+      {
+        "industry": "Apparel & Footwear",
+        "subIndustry": "Sports",
+        "userType": "B2C",
+        "competitors": [
+          {
+            "name": "Adidas"
+          },
+          {
+            "name": "Puma"
+          },
+          {
+            "name": "Under Armour"
+          }
+        ],
+        "employeeCount": 68000,
+        "yearOfEstablishment": 1964,
+        "annualRevenues": "USD 51 Billion (2023)",
+        "keyClients": ""
+      }
+    ],
+    "keyStakeholders": [
+      {
+        "product": [
+          {
+            "userName": "John Doe",
+            "designation": "Director"
+          }
+        ],
+        "engineering": [
+          {
+            "userName": "",
+            "designation": ""
+          }
+        ],
+        "marketing": [
+          {
+            "userName": "Bryan G Pecoraro",
+            "designation": "Manager"
+          }
+        ],
+        "finance": [
+          {
+            "userName": "",
+            "designation": ""
+          }
+        ]
+      }
+    ],
+    "activitySnapshot": [
+      {
+        "visitor": [
+          {
+            "designation": "Manager",
+            "department": "Marketing"
+          },
+          {
+            "designation": "Director",
+            "department": "Engineering"
+          },
+          {
+            "designation": "Manager",
+            "department": "Finance"
+          }
+        ],
+        "pageVisited": [
+          {
+            "page": [
+              {
+                "name": "Adidas Case Study",
+                "link": "https://www.adidas.com/case-study"
+              }
+            ]
+          },
+          {
+            "page": [
+              {
+                "name": "Managing Webpages Automated SEO",
+                "link": "https://www.google.com/search?q=managing-webpages-automated-seo"
+              }
+            ]
+          },
+          {
+            "page": [
+              {
+                "name": "Pricing",
+                "link": "https://www.google.com/search?q=market-price"
+              }
+            ]
+          }
+        ],
+        "keywordsSearched": [
+          {
+            "key": ["Mailchimp Clients"]
+          },
+          {
+            "key": ["Mailchimp vs Braze", "Mailchimp Data Security"]
+          },
+          {
+            "key": ["Mailchimp Pricing"]
+          }
+        ],
+        "socialMediaPosts": [
+          {
+            "socialMedia": "LinkedIn",
+            "postLink": "https://www.linkedin.com/Mailchimp-Clients"
+          },
+          {
+            "socialMedia": "Twitter",
+            "postLink": "https://www.twitter.com/Mailchimp-data"
+          },
+          {
+            "socialMedia": "",
+            "postLink": ""
+          }
+        ]
+      }
+    ]
+  }
+]

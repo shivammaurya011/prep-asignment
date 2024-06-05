@@ -1,0 +1,109 @@
+.pain-container {
+  display: flex;
+  background-color: #fff;
+  padding: 0;
+  margin-bottom: 20px;
+  border: 1px solid #989898;
+  border-radius: 10px;
+}
+
+.pain-section, .business-initiatives, .business-criteria {
+  padding: 10px;
+  width: 100%;
+}
+
+.pain-section + .pain-section {
+  border-left: 1px solid #989898;
+}
+
+.pain-section h4,
+p, .business-initiatives h4, p, .business-criteria h4, p {
+  margin-left: 10px;
+}
+
+.pain-section p a, .business-initiatives p a, .business-criteria p a {
+  text-decoration: none;
+  color: #29c7d6;
+}
+
+.pain-section-content thead {
+  background-color: #eee;
+}
+
+.list-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.list-table th,
+.list-table td {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  text-align: center;
+}
+
+.table-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.pain-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #989898;
+}
+
+.pain-text .top {
+  font-weight: bold;
+  color: #000;
+}
+
+.severity-tag {
+  display: flex;
+  align-items: center;
+}
+
+.severity p {
+  font-weight: bold;
+  color: #989898;
+  margin-right: 10px;
+}
+
+.tag {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.business-initiatives .pain-section-content table tbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 80px;
+}
+
+.business-criteria .pain-section-content table tbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 80px;
+}

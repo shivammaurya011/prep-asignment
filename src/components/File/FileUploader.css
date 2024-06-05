@@ -1,0 +1,41 @@
+.dropzone-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropzone-container .upload-button {
+  position: relative;
+  z-index: 10000;
+}
+
+.upload-button {
+  background-color: #29c7d6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.close-button {
+  position: absolute;
+  top: 60px;
+  right: 410px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropzone-container .react-uploader__dropzone {
+  flex: none;
+}
